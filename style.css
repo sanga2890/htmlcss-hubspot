@@ -50,7 +50,7 @@
 
 #left-header-top a {
     text-decoration: none;
-    color: black;
+    color: #33475b;
 }
 
 .fas {
@@ -92,4 +92,82 @@
 
 #header-bottom {
     padding-top: 90px;
+    background-color: white;
+    height: 180px;
+    width: 100vw;
+}
+
+#logo {
+    float: left;
+    line-height: 90px;
+    padding-top: 7px;
+}
+
+#right-header-bottom li {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+
+#right-header-bottom a{
+    text-decoration: none;
+    color: #33475b;
+    line-height: 90px;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.clearfix::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+
+#header-main {
+    background-color: #fff4ef;
+    height: 800px;
+    background-image: url(img/sfondo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+}
+
+#mainbox {
+    width: 41%;
+    padding-top: 10%;
+}
+
+#mainbox h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: #33475b;
+}
+
+#mainbox :nth-child(2) {
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 45px;
+    color:#33475b;
+}
+
+#btn-box .getit {
+    text-decoration: none;
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 25px 30px 25px;
+}
+
+#btn-box{
+    width: 210px;
+}
+#btn-box :nth-child(2){
+    font-size: 13px;
+    font-weight: bolder;
+    color:#33475b;
+    padding-top: 50px;
 }
