@@ -2,4 +2,94 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+}
+
+#header-top{
+    background-color: #f5f8fa;
+    height: 90px;
+    border-bottom: 1px solid lightgrey;
+    width: 100vw;
+    position: fixed;
+}
+
+#globe{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    float: left;
+
+
+}
+#globe img{
+    width: 21px;
+}
+
+#globe img:hover {
+    cursor: pointer;
+}
+
+#left-header-top {
+    line-height: 90px;
+    float: left;
+    font-weight:400;
+    margin-left: 20px;
+}
+
+#left-header-top :first-child{
+    margin-right: 25px;
+    border-right: 2px solid lightgrey;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#left-header-top a {
+    text-decoration: none;
+    color: black;
+}
+
+.fas {
+    color: #6fcad8;
+    font-size: 18px;
+}
+
+.fas:hover{
+    cursor: pointer;
+}
+
+#right-header-top{
+    float: right;
+    line-height: 90px;
+}
+
+
+.login {
+    text-decoration: none;
+    color: #ff7a59;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ff7a59;
+    font-size: 14px;
+    padding: 11px 30px 11px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.getit {
+    text-decoration: none;
+    color: white;
+    background-color: #ff7a59;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 11px 16px 11px;
+
+}
+
+#header-bottom {
+    padding-top: 90px;
 }
