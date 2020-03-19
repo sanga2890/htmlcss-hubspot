@@ -206,6 +206,12 @@
     float: right;
     padding: 3%;
     background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 11px #eaf0f6;
+}
+
+#crm:hover{
+    transform: scale(1.1)
 }
 
 #crm h3 {
@@ -269,8 +275,13 @@
     float:left;
     background-color: white;
     padding: 3%;
+    border-radius: 3px;
+    box-shadow: 0 0 11px #eaf0f6;
 }
 
+.hub:hover {
+    transform: scale(1.1);
+}
 .hub h3{
     font-size: 22px;
     padding-bottom: 25px;
