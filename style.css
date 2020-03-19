@@ -110,7 +110,7 @@
 #right-header-bottom li {
     display: inline-block;
     float: right;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #right-header-bottom a{
@@ -151,7 +151,7 @@
 }
 
 #mainbox :nth-child(2) {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 27px;
     padding-bottom: 45px;
     color:#33475b;
@@ -177,23 +177,116 @@
     padding-bottom: 230px;
 }
 
+#second-block {
+    background-color: #f5f8fa;
+    width: 100vw;
+    padding-top: 100px;
+    color:#33475b;
+}
 #message {
-    width: 30%;
+    width: 35%;
     float: left;
 }
 
+#message h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#message p{
+    font-size: 19px;
+    line-height: 27px;
+
+}
+
 #crm {
-    width: 65%;
+    width: 63%;
+    float: right;
+    padding: 3%;
+    background-color: white;
+}
+
+#crm h3 {
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+
+#crm-top p{
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+#crm-bottom .getit{
+    padding: 18px 98px 18px;
+    font-size: 15px;
+    font-weight: bolder;
     float: right;
 }
-#top-row::after{
-  content: "";
-  clear: both;
-  display: table;
 
+#crm-bottom p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 
+#crm-bottom li{
+    float: left;
+    padding-right: 30px;
+    font-size: 14px;
+}
 .hub {
-    width: 30%;
+    width: 346px;
     float:left;
+    background-color: white;
+    padding: 3%;
+}
+
+.hub h3{
+    font-size: 22px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.hub-top p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(153,172,194,0.2);
+}
+
+.hub-bottom p{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.hub-bottom li{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.hub-bottom ul{
+    margin-bottom: 20px;
+}
+
+#bottom-row .getit {
+    padding: 18px 98px 18px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#bottom-row {
+    margin-top: 20px;
+}
+
+#bottom-row .hub:first-child{
+    margin-right: 21px;
+}
+
+#bottom-row .hub:nth-child(2){
+    margin-right: 21px;
 }
