@@ -374,6 +374,13 @@ li {
     float: left;
     padding-bottom: 120px;
 }
+
+#grid-top, #grid-bottom {
+    float: left;
+    margin: auto;
+    width: 100%;
+}
+
 #grid-bottom .square{
     border-top: 1px solid white;
 }
@@ -397,4 +404,8 @@ li {
 
 .square :nth-child(3) {
     font-size: 19px;
+}
+
+#grid-bottom .square:last-of-type img{
+    padding-top: 10px;
 }
