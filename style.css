@@ -130,7 +130,6 @@
 
 #header-main {
     background-color: #fff4ef;
-    /* height: 800px; */
     background-image: url(img/sfondo.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -348,23 +347,57 @@ li {
 
 #third-block {
     width: 100vw;
-    background-color: lightblue;
-    height: 800px;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 900px;
 }
 
 #text-row {
     margin: auto;
+    padding: 150px 180px 80px;
+    color: white;
+    text-align: center;
+}
+
+#text-row h2 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#text-row p {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 28px;
+
+}
+
+#grid-bottom .square{
+    border-top: 1px solid white;
+
+}
+
+#grid-bottom {
+    padding-bottom: 100px;
+}
+.square:nth-of-type(2), .square:nth-of-type(odd){
+    border-right: 1px solid white;
 }
 
 
-#grid-top, #grid-bottom, #grid-box {
-    width: 100%;
-}
 
 .square {
     width: 25%;
     float: left;
     padding: 30px;
-    border: 1px solid black;
     text-align: center;
+    color: white;
+}
+
+.square :nth-child(2) {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.square :nth-child(3) {
+    font-size: 19px;
 }
