@@ -93,7 +93,6 @@
 #header-bottom {
     padding-top: 90px;
     background-color: white;
-    height: 180px;
     width: 100vw;
 }
 
@@ -101,6 +100,11 @@
     float: left;
     line-height: 90px;
     padding-top: 7px;
+}
+
+#logo:hover {
+    cursor: pointer;
+
 }
 
 #right-header-bottom li {
@@ -113,7 +117,7 @@
     text-decoration: none;
     color: #33475b;
     line-height: 90px;
-    font-weight: 300;
+    font-weight: bolder;
     font-size: 18px;
 
 }
@@ -126,7 +130,7 @@
 
 #header-main {
     background-color: #fff4ef;
-    height: 800px;
+    /* height: 800px; */
     background-image: url(img/sfondo.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -170,4 +174,5 @@
     font-weight: bolder;
     color:#33475b;
     padding-top: 50px;
+    padding-bottom: 230px;
 }
