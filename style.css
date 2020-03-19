@@ -182,6 +182,7 @@
     width: 100vw;
     padding-top: 100px;
     color:#33475b;
+    padding-bottom: 100px;
 }
 #message {
     width: 35%;
@@ -210,6 +211,12 @@
 #crm h3 {
     font-size: 22px;
     padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+#crm .pallino {
+    float: left;
+    padding-right: 10px;
 }
 
 #crm-top p{
@@ -232,11 +239,31 @@
     padding-bottom: 20px;
 }
 
+
 #crm-bottom li{
     float: left;
-    padding-right: 30px;
+    padding-right: 15px;
     font-size: 14px;
 }
+#crm-bottom li::before {
+    content: '';
+    background: url(img/check.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    padding-right: 10px;
+}
+
+#crm-bottom p::after{
+    content: '';
+    float: right;
+    padding-top: 8px;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(153,172,194,0.2);
+    width: 70%;
+}
+
 .hub {
     width: 346px;
     float:left;
@@ -247,7 +274,6 @@
 .hub h3{
     font-size: 22px;
     padding-bottom: 25px;
-    padding-top: 20px;
 }
 
 .hub-top p {
@@ -272,6 +298,24 @@
 
 .hub-bottom ul{
     margin-bottom: 20px;
+}
+
+.hub .pallino {
+    float: left;
+    padding-right: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+.hub-bottom ul li::before{
+    content: '';
+    background: url(img/check.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    float: left;
+    padding-right: 10px;
 }
 
 #bottom-row .getit {
