@@ -176,3 +176,24 @@
     padding-top: 50px;
     padding-bottom: 230px;
 }
+
+#message {
+    width: 30%;
+    float: left;
+}
+
+#crm {
+    width: 65%;
+    float: right;
+}
+#top-row::after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.hub {
+    width: 30%;
+    float:left;
+}
