@@ -540,3 +540,11 @@ footer{
     font-weight: bold;
     padding-bottom: 15px;
 }
+
+#contacts li :last-child {
+    width: 20px;
+}
+
+#contacts li {
+    float: left;
+}
