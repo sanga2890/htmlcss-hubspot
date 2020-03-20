@@ -409,3 +409,21 @@ li {
 #grid-bottom .square:last-of-type img{
     padding-top: 10px;
 }
+
+#fouth-block {
+    width: 100vw;
+}
+
+#rowtop {
+    width: 100%;
+}
+
+#rowtop-left {
+    width: 35%;
+    float: left;
+}
+
+#rowtop-right {
+    width: 65%;
+    float: right;
+}
