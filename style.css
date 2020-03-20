@@ -416,25 +416,43 @@ li {
 
 #rowtop {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 #rowtop-left {
     width: 35%;
     float: left;
+    margin-right: 5%;
+    color:#33475b;
+}
+
+#rowtop-left h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#rowtop-left h3 {
+    font-size: 23px;
+    font-weight: lighter;
+    padding-top: 15px;
 }
 
 #rowtop-right {
-    width: 65%;
+    width: 60%;
     float: right;
-    padding-left: 50px;
-
+    align-items: center;
+    flex-flow: row wrap;
+    display: flex;
+    padding-top: 16px;
 }
 
 .sponsor {
-    width: 22%;
-    padding-left: 30px;
-    padding-top: 20px;
-    float: left;
+    width: 20%;
+    padding-left: 20px;
+    margin-left: 28px;
+    padding-bottom:40px;
+}
 
+.sponsor img{
+    width: 100%;
 }
