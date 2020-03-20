@@ -518,6 +518,8 @@ li {
 footer{
     width: 100vw;
     background-color: #33475b;
+    padding-bottom: 60px;
+
 }
 
 #footer-top{
@@ -526,24 +528,39 @@ footer{
     float: left;
     color: white;
     padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 .elenco {
-    width: 25%;
+    width: 24%;
     float:left;
+    margin-right: 1%;
 }
 
 .elenco a{
     text-decoration: none;
-    color: lightgrey;
+    color: #cbd6e2;
     font-size: 16px;
     line-height: 40px;
+    font-weight: bolder;
+}
 
+.elenco a:hover {
+    color: #6fcad8;
 }
 .elenco p {
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 15px;
+}
+
+#freetools{
+    font-family: sans-serif;
+    color:white;
+}
+
+#contacts{
+    padding-top: 25px;
 }
 
 #contacts li :last-child {
@@ -552,4 +569,92 @@ footer{
 
 #contacts li {
     float: left;
+    padding-top: 25px;
+    margin-right: 22px;
+}
+#contacts .fab{
+    color: #cbd6e2;
+    font-size: 23px;
+}
+
+#contacts .fab:hover{
+    color:#6fcad8;
+}
+#contacts  img:last-of-type {
+    width: 23px;
+    color: #cbd6e2;
+}
+
+#contact img:hover {
+    cursor: pointer;
+}
+
+#btn-support{
+    color:#33475b;
+    background-color: white;
+    padding: 11px 14px 11px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#languages li{
+    display: inline-block;
+}
+
+#languages ul {
+    text-align: center;
+    padding-top: 80px;
+}
+#languages a {
+    text-decoration: none;
+    color: #cbd6e2;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 18px;
+}
+
+#languages a:hover {
+    color:#6fcad8;
+}
+
+#languages {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+#footer {
+    padding-top: 40px;
+}
+
+#footer-left {
+    width:50%;
+    float: left;
+}
+
+#footer-left img{
+    cursor: pointer;
+}
+
+#footer-left p{
+    color:#cbd6e2;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#footer-right {
+    float: right;
+    width: 50%;
+}
+
+#footer-right a{
+    float: right;
+    text-decoration: none;
+    color: #cbd6e2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 50px;
+    padding-top: 12px;
+}
+#footer-right a:hover{
+    color: #6fcad8;
 }
