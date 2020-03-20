@@ -16,6 +16,7 @@
     border-bottom: 1px solid lightgrey;
     width: 100vw;
     position: fixed;
+    z-index: 1;
 }
 
 #globe{
@@ -88,6 +89,10 @@
     font-size: 14px;
     padding: 11px 16px 11px;
 
+}
+
+.getit:hover{
+    opacity: 0.5;
 }
 
 #header-bottom {
