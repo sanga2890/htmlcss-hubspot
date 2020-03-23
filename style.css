@@ -101,6 +101,7 @@ body {position: relative;}
     padding-top: 90px;
     background-color: white;
     width: 100vw;
+
 }
 
 #logo {
@@ -214,10 +215,11 @@ body {position: relative;}
     background-color: white;
     border-radius: 3px;
     box-shadow: 0 0 11px #eaf0f6;
+    transition: 0.3s all;
 }
 
 #crm:hover{
-    transform: scale(1.1)
+    transform: scale(1.014);
 }
 
 #crm h3 {
@@ -283,10 +285,11 @@ body {position: relative;}
     padding: 3%;
     border-radius: 3px;
     box-shadow: 0 0 11px #eaf0f6;
+    transition: 0.3s all;
 }
 
 .hub:hover {
-    transform: scale(1.1);
+    transform: scale(1.014);
 }
 .hub h3{
     font-size: 22px;
