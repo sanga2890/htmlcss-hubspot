@@ -5,6 +5,8 @@
     font-family: 'Sen', sans-serif;
 }
 
+body {position: relative;}
+
 .container {
     width: 1080px;
     margin: auto;
@@ -659,4 +661,26 @@ footer{
 
 #footer-right a:hover{
     color: #6fcad8;
+}
+
+#btn-chat {
+    position: fixed;
+    background-color: rgb(66, 91, 118);
+    padding: 15px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1), 0 2px 24px rgba(0,0,0,.2);
+}
+
+#btn-chat img{
+    margin: auto;
+    display: block;
+}
+
+#btn-chat:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0,0,0,.3), 0 2px 24px rgba(0,0,0,.5);
 }
